@@ -1,0 +1,86 @@
+PN_info
+105 rows 9 columns
+uniglomerular olfactory PNs which make synapses with KCs in the main calyx
+pn.bodyId- hemibrain bodyId
+pn.instance- hemibrain instance
+pn.glomerulus- glomerulus from instance in hemibrain and as annotated by Bates 2020
+pn.lineage- from Yu 2010 and Lin 2012
+birthorder- from Yu 2010 and Lin 2012. birth order is only within each lineage
+birthstage- from Yu 2010 and Lin 2012
+nsyn- number of presynapses from PN to main calyx KC. monosynaptic connections between PNs and KCs were filtered out. This value may be greater than the sum of nsyn from boutons as there were a few groups of synapses smaller than 3 which did not count as a bouton.
+nbout- calculated from number of boutons we annotated with more than 3 presynapses
+nbp- calculated from number bouton bearing collateral branch points we annotated
+
+KC_info
+1728 rows 7 columns
+KCs which innervate the main calyx (as defined by type) and connect with uniglomerular olfactory PNs
+kc.bodyId- hemibrain bodyId
+kc.instance- hemibrain instance
+kc.type- inferred through instance
+nb.cluster- a,b,c,d or unknown annotated by us
+kc.largetype- which of the three main types gamma, alpha'beta', or alphabeta
+nclaw- number of claws we annotated assigned to a given KC. Filtered out claws post synaptic to fewer than 3 synapses. includes claws which receive thermo and hygrosensory inputs on KCs which also receive olfactory input.
+npostsyn- number of PN presynapses this KC was post synaptic to. monosynaptic connections between PNs and KCs were filtered out.
+
+presynapse_info_KCconnectivity
+24791 rows 1735 columns
+synId- arbitrary number to identify synapse
+pn.bodyId- hemibrain bodyId of PN this synapse is assigned to
+pn.boutId- hemibrain bodyId of the PN _ then arbitrary number which identifies the bouton this synapse is assigned to
+pns.location.x- x coordinate of the synapse rotated as described in methods
+pns.location.y- y coordinate of the synapse rotated as described in methods
+pns.location.z- z coordinate of the synapse rotated as described in methods
+remaining columns are xKCbodyId for every main calyx KC with 1 to indicate that KC is postsynaptic to that synapse
+
+bouton_info_KCconnectivity
+442 rows 1740 columns
+pn.boutId- hemibrain bodyId of the PN _ then arbitrary number which identifies the bouton
+pn.bodyId- hemibrain bodyId
+pn.glomerulus- glomerulus from instance in hemibrain and as annotated by Bates 2020
+nsyn- number of presynapses from this bouton to main calyx KC. monosynaptic connections between PNs and KCs were filtered out.
+nkc- number of unique main calyx KCs postsynaptic to this bouton
+center.x- average x coordinate of the presynapses that make up this bouton
+center.y- average y coordinate of the presynapses that make up this bouton
+center.z- average z coordinate of the presynapses that make up this bouton
+bp- branch point number of the collateral that bears this bouton from the PN skeleton from the hemibrain
+bp.x- x coordinate of branch point
+bp.y- y coordinate of branch point
+bp.z- z coordinate of branch point
+remaining columns are xKCbodyId for every main calyx KC with the number of presynapses on the bouton a given KC is postsynaptic to
+
+claw_info
+10195 rows 13 columns
+kc.clawId- hemibrain bodyId _ arbitrary number to identify this claw
+kc.bodyId- hemibrain bodyId
+kc.type-inferred through instance
+kc.largetype- which of the three main types gamma, alpha'beta', or alphabeta
+nb.cluster- a,b,c,d or unknown annotated by us
+npostsyn- number of PN presynapses this claw was post synaptic to. monosynaptic connections between PNs and KCs were filtered out.
+center.x- average x coordinate of presynapses this claw is postsynaptic to
+center.y- average y coordinate of presynapses this claw is postsynaptic to
+center.z- average z coordinate of presynapses this claw is postsynaptic to
+pn.boutId- bouton Id of bouton this claw is postsynaptic to
+pn.bodyId- hemibrain bodyId of PN this claw is postsynaptic to
+pn.glomerulus- glomerulus from instance in hemibrain and as annotated by Bates 2020 of the PN this claw is postsynaptic to
+synIds- synapse Ids of synapses this claw is post synaptic to
+
+pw_bouton_distances
+94,830 rows 8 columns non redundant pairwise distances between each pair of boutons
+bout1- boutonId of bout1
+bout2- boutonId of bout2
+x.dist- distance along the x axis between bout 1 and 2
+y.dist- distance along the y axis between bout 1 and 2
+z.dist- distance along the z axis between bout 1 and 2
+distance- linear distance between bout 1 and 2
+ncommonkc- number of KCs both boutons are presynaptic to
+
+pairwise_bouton_distances_1ksample
+2,000 rows 8 columns 1,000 examples of pairwise distances between boutons that share 0 and 1 or more KCs
+bout1- boutonId of bout1
+bout2- boutonId of bout2
+x.dist- distance along the x axis between bout 1 and 2
+y.dist- distance along the y axis between bout 1 and 2
+z.dist- distance along the z axis between bout 1 and 2
+distance- linear distance between bout 1 and 2
+ncommonkc- number of KCs both boutons are presynaptic to
+kcgroup- 0 for boutons that share 0 KCs and 'any number of shared KCs' for boutons that share 1 or more KC partners

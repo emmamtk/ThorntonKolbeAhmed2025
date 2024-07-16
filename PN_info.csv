@@ -1,0 +1,106 @@
+"pn.bodyId","pn.instance","pn.glomerulus","pn.lineage","birthorder","birthstage","nsyn","nbout","nbp"
+5813055184,"D_adPN_R","D","adPN",22,"early larval",125,2,2
+5813038889,"D_adPN_R","D","adPN",22,"early larval",155,2,1
+1536947502,"D_adPN_R","D","adPN",22,"early larval",156,2,2
+754538881,"DA1_lPN_R","DA1","lPN",8,"early larval",59,1,1
+1765040289,"DA1_lPN_R","DA1","lPN",8,"early larval",72,2,2
+5813039315,"DA1_lPN_R","DA1","lPN",8,"early larval",104,3,2
+754534424,"DA1_lPN_R","DA1","lPN",8,"early larval",102,3,2
+722817260,"DA1_lPN_R","DA1","lPN",8,"early larval",116,3,2
+1734350788,"DA1_lPN_R","DA1","lPN",8,"early larval",90,2,2
+1734350908,"DA1_lPN_R","DA1","lPN",8,"early larval",100,3,2
+1827516355,"DA2_lPN_R","DA2","lPN",12,"early larval",48,4,2
+1797505019,"DA2_lPN_R","DA2","lPN",12,"early larval",46,2,2
+1796817841,"DA2_lPN_R","DA2","lPN",12,"early larval",64,3,3
+818983130,"DA2_lPN_R","DA2","lPN",12,"early larval",75,3,3
+1796818119,"DA2_lPN_R","DA2","lPN",12,"early larval",77,3,3
+666135689,"DA3_adPN_R","DA3","adPN",20,"early larval",44,2,2
+1703683361,"DA3_adPN_R","DA3","adPN",20,"early larval",24,1,1
+544021095,"DA4l_adPN_R","DA4l","adPN",3,"embryonic",195,3,2
+574037266,"DA4m_adPN_R","DA4m","adPN",8,"embryonic",63,2,1
+1640594274,"DC1_adPN_R","DC1","adPN",10,"embryonic",858,13,6
+5813055048,"DC2_adPN_R","DC2","adPN",21,"early larval",244,6,3
+1828206773,"DC2_adPN_R","DC2","adPN",21,"early larval",254,6,4
+1857825571,"DC3_adPN_R","DC3","adPN",24,"early larval",218,3,2
+5813039471,"DC3_adPN_R","DC3","adPN",24,"early larval",215,3,2
+1858171399,"DC3_adPN_R","DC3","adPN",24,"early larval",225,3,2
+5813056596,"DC4_adPN_R","DC4","adPN",NA,NA,224,2,2
+1700946301,"DL1_adPN_R","DL1","adPN",19,"early larval",335,7,2
+1700937093,"DL1_adPN_R","DL1","adPN",19,"early larval",346,9,3
+1793351401,"DL2d_adPN_R","DL2d","adPN",36,"late larval",22,2,2
+1756579280,"DL2d_adPN_R","DL2d","adPN",36,"late larval",71,2,1
+5813024710,"DL2d_adPN_R","DL2d","adPN",36,"late larval",98,1,1
+1793014716,"DL2d_adPN_R","DL2d","adPN",36,"late larval",162,2,1
+788648194,"DL2d_adPN_R","DL2d","adPN",36,"late larval",218,4,1
+1734420152,"DL2v_adPN_R","DL2v","adPN",25,"early larval",63,1,1
+5813039465,"DL2v_adPN_R","DL2v","adPN",25,"early larval",130,1,1
+5813038793,"DL2v_adPN_R","DL2v","adPN",25,"early larval",194,2,1
+1609542060,"DL3_lPN_R","DL3","lPN",9,"early larval",121,3,2
+1670934213,"DL4_adPN_R","DL4","adPN",18,"embryonic",101,3,3
+693483018,"DL5_adPN_R","DL5","adPN",14,"embryonic",413,8,5
+542634818,"DM1_lPN_R","DM1","lPN",4,"early larval",981,15,4
+5901222910,"DM2_lPN_R","DM2","lPN",5,"early larval",403,6,3
+630714299,"DM2_lPN_R","DM2","lPN",5,"early larval",391,8,4
+755518957,"DM3_adPN_R","DM3","adPN",16,"embryonic",527,5,2
+573333835,"DM4_adPN_R","DM4","adPN",13,"embryonic",848,13,2
+697485362,"DM5_lPN_R","DM5","lPN",13,"early larval",166,5,2
+635416407,"DM5_lPN_R","DM5","lPN",13,"early larval",165,6,3
+788306624,"DM6_adPN_R","DM6","adPN",29,"early larval",205,3,2
+5813039235,"DM6_adPN_R","DM6","adPN",29,"early larval",198,3,2
+5813070872,"DM6_adPN_R","DM6","adPN",29,"early larval",208,2,2
+1764091241,"DM6_adPN_R","DM6","adPN",29,"early larval",174,2,1
+724816115,"DP1l_adPN_R","DP1l","adPN",NA,NA,730,7,5
+635062078,"DP1m_adPN_R","DP1m","adPN",1,"embryonic",1154,17,7
+698508565,"V_ilPN","V","ilPN",NA,NA,212,11,3
+2064165421,"V_ilPN","V","ilPN",NA,NA,183,11,2
+850375847,"VA1d_adPN_R","VA1d","adPN",25,"early larval",131,1,1
+5813055162,"VA1d_adPN_R","VA1d","adPN",25,"early larval",182,2,2
+1851061177,"VA1d_adPN_R","VA1d","adPN",25,"early larval",189,1,1
+5813054697,"VA1v_adPN_R","VA1v","adPN",30,"early larval",95,1,1
+1788300760,"VA1v_adPN_R","VA1v","adPN",30,"early larval",94,1,1
+5813024601,"VA1v_adPN_R","VA1v","adPN",30,"early larval",101,2,2
+1977579449,"VA2_adPN_R","VA2","adPN",12,"embryonic",688,8,4
+5813055025,"VA3_adPN_R","VA3","adPN",23,"early larval",294,4,2
+1889253785,"VA3_adPN_R","VA3","adPN",23,"early larval",320,3,2
+1630051981,"VA4_lPN_R","VA4","lPN",1,"early larval",536,6,4
+574032862,"VA5_lPN_R","VA5","lPN",6,"early larval",150,2,2
+574037281,"VA5_lPN_R","VA5","lPN",6,"early larval",161,3,3
+574374051,"VA5_lPN_R","VA5","lPN",6,"early larval",184,3,3
+1881751117,"VA6_adPN_R","VA6","adPN",7,"embryonic",644,9,7
+1692817033,"VA7l_adPN_R","VA7l","adPN",11,"embryonic",365,4,3
+5813050729,"VA7m_lPN_R","VA7m","lPN",7,"early larval",161,6,4
+1882083076,"VA7m_lPN_R","VA7m","lPN",7,"early larval",174,6,4
+5813055180,"VA7m_lPN_R","VA7m","lPN",7,"early larval",159,5,4
+606090268,"VC1_lPN_R","VC1","lPN",3,"early larval",365,5,6
+1850706912,"VC2_lPN_R","VC2","lPN",2,"early larval",445,6,5
+1914823337,"VC3l_adPN_R","VC3l","adPN",NA,NA,214,3,2
+693125078,"VC3l_adPN_R","VC3l","adPN",NA,NA,248,3,3
+1818307672,"VC3m_lvPN_R","VC3m","lvPN",NA,NA,191,5,3
+662776660,"VC3m_lvPN_R","VC3m","lvPN",NA,NA,257,4,3
+1442819296,"VC3m_lvPN_R","VC3m","lvPN",NA,NA,256,5,4
+788306724,"VC4_adPN_R","VC4","adPN",31,"late larval",147,4,2
+5813055147,"VC4_adPN_R","VC4","adPN",31,"late larval",210,3,3
+754854077,"VC4_adPN_R","VC4","adPN",31,"late larval",188,3,2
+636789080,"VC5_adPN_R","VC5","adPN",5,"embryonic",433,6,6
+1912789965,"VL1_ilPN","VL1","ilPN",NA,NA,50,2,2
+2166133204,"VL1_ilPN","VL1","ilPN",NA,NA,43,3,3
+5813069089,"VL2a_adPN_R","VL2a","adPN",9,"embryonic",620,7,3
+1944507292,"VL2p_adPN_R","VL2p","adPN",2,"embryonic",729,8,6
+1850711304,"VM1_lPN_R","VM1","lPN",11,"early larval",250,2,2
+727472481,"VM2_adPN_R","VM2","adPN",28,"early larval",147,3,2
+697132371,"VM2_adPN_R","VM2","adPN",28,"early larval",163,4,2
+1977916288,"VM3_adPN_R","VM3","adPN",15,"embryonic",196,2,1
+1851389175,"VM3_adPN_R","VM3","adPN",15,"embryonic",263,5,2
+726207450,"VM4_lvPN_R","VM4","lvPN",NA,NA,53,1,1
+694834412,"VM4_adPN_R","VM4","adPN",4,"embryonic",249,4,4
+1888572074,"VM5d_adPN_R","VM5d","adPN",32,"late larval",117,3,2
+5813024712,"VM5d_adPN_R","VM5d","adPN",32,"late larval",145,4,3
+1914140664,"VM5d_adPN_R","VM5d","adPN",32,"late larval",134,3,2
+1006258344,"VM5d_adPN_R","VM5d","adPN",32,"late larval",165,2,1
+1914823414,"VM5d_adPN_R","VM5d","adPN",32,"late larval",155,2,2
+2010992546,"VM5v_adPN_R","VM5v","adPN",33,"late larval",157,6,4
+5813034571,"VM5v_adPN_R","VM5v","adPN",33,"late larval",175,5,3
+1851393805,"VM7d_adPN_R","VM7d","adPN",27,"early larval",145,4,2
+5813050727,"VM7d_adPN_R","VM7d","adPN",27,"early larval",193,4,1
+693479072,"VM7v_adPN_R","VM7v","adPN",26,"early larval",145,4,1
+1889253763,"VM7v_adPN_R","VM7v","adPN",26,"early larval",143,3,1
