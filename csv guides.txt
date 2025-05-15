@@ -42,11 +42,29 @@ nkc- number of unique main calyx KCs postsynaptic to this bouton
 center.x- average x coordinate of the presynapses that make up this bouton
 center.y- average y coordinate of the presynapses that make up this bouton
 center.z- average z coordinate of the presynapses that make up this bouton
-bp- branch point number of the collateral that bears this bouton from the PN skeleton from the hemibrain
-bp.x- x coordinate of branch point
-bp.y- y coordinate of branch point
-bp.z- z coordinate of branch point
+bp- branch point number of the collateral that bears this bouton from the PN skeleton from the hemibrain- these are not the updated ones. use branch points from bouton_info_collateral_bps.csv
+bp.x- x coordinate of branch point. use branch points from bouton_info_collateral_bps.csv
+bp.y- y coordinate of branch point. use branch points from bouton_info_collateral_bps.csv
+bp.z- z coordinate of branch point. use branch points from bouton_info_collateral_bps.csv
 remaining columns are xKCbodyId for every main calyx KC with the number of presynapses on the bouton a given KC is postsynaptic to
+
+bouton_info_collateral_bps.csv
+436 rows 15 columns
+pn.boutId- hemibrain bodyId of the PN _ then arbitrary number which identifies the bouton
+pn.bodyId- hemibrain bodyId
+pn.glomerulus- glomerulus from instance in hemibrain and as annotated by Bates 2020
+nsyn- number of presynapses from this bouton to main calyx KC. monosynaptic connections between PNs and KCs were filtered out.
+nkc- number of unique main calyx KCs postsynaptic to this bouton
+center.x- average x coordinate of the presynapses that make up this bouton
+center.y- average y coordinate of the presynapses that make up this bouton
+center.z- average z coordinate of the presynapses that make up this bouton
+bp- branch point number of the collateral that bears this bouton from the PN skeleton from the hemibrain
+bp.x- x coordinate of branch point.
+bp.y- y coordinate of branch point. 
+bp.z- z coordinate of branch point.
+child - PointNo on the skeleton of the child point which defines the collateral
+boutpt- PointNo on the skeleton closest to the center of the bouton
+coll.length- the shortest distance along the skeleton between the collateral branch point (bp) and the bouton (boutpt)
 
 claw_info
 10195 rows 13 columns
